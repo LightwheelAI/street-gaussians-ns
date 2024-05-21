@@ -1,0 +1,9 @@
+[submodule "dependencies/nvdiffrast"]
+	path = dependencies/nvdiffrast
+	url = https://github.com/NVlabs/nvdiffrast.git
+[submodule "dependencies/detectron2"]
+	path = dependencies/detectron2
+	url = https://github.com/facebookresearch/detectron2.git
+[submodule "dependencies/Mask2Former"]
+	path = dependencies/Mask2Former
+	url = https://github.com/facebookresearch/Mask2Former.git
