@@ -36,13 +36,13 @@ Do you have feature requests or want to add **your** new model? Or maybe contrib
 
 Waymo:
 
-https://github.com/LightwheelAI/street-gaussians-ns/assets/159144751/06a92b4d-f422-4fc8-9a5d-f8d0c44702fa
+https://github.com/LightwheelAI/street-gaussians-ns/assets/159144751/243e514a-bc8d-46e1-b9bf-cdbf5feef5f8
 
-https://github.com/LightwheelAI/street-gaussians-ns/assets/159144751/7d00e935-a633-42a1-b8f4-bf72ac18aed9
+https://github.com/LightwheelAI/street-gaussians-ns/assets/159144751/7456761b-2733-442e-8b95-1057e77d2a51
 
-https://github.com/LightwheelAI/street-gaussians-ns/assets/159144751/f396dff1-083d-4ea8-af58-3c4fb9e4bd73
+https://github.com/LightwheelAI/street-gaussians-ns/assets/159144751/91094bee-5ba4-41f7-a4d7-f51cda2a3b83
 
-https://github.com/LightwheelAI/street-gaussians-ns/assets/159144751/37a1a4e2-3ba4-493d-a76f-fb38ec194948
+https://github.com/LightwheelAI/street-gaussians-ns/assets/159144751/eb87a092-0ddb-4b94-97fc-fa33a6bd17a8
 
 Waymo:
 
