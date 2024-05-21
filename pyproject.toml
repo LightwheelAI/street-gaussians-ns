@@ -1,0 +1,24 @@
+[project]
+name = "street_gaussians_ns"
+version = "0.1.1"
+
+dependencies=[
+    "pytorch3d",
+    "imagesize",
+    "kornia",
+    "plyfile",
+    "nerfstudio"
+]
+
+[tool.setuptools.packages.find]
+include = ["street_gaussians_ns*"]
+
+[project.entry-points.'nerfstudio.method_configs']
+sgn = 'street_gaussians_ns.sgn_config:street_gaussians_ns_method'
+
+[project.scripts]
+# Note, add entrypoint name to nerfstudio/scripts/completions/install.py to include CLI completion
+sgn-train = "nerfstudio.scripts.train:entrypoint"
+sgn-eval = "street_gaussians_ns.scripts.eval:entrypoint"
+sgn-render = "street_gaussians_ns.scripts.render:entrypoint"
+sgn-export = "street_gaussians_ns.scripts.exporter:entrypoint"
