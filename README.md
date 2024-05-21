@@ -12,11 +12,9 @@
 # Introduction
 
 ## About
-This repository is an unofficial implementation of "[Street Gaussians for Modeling Dynamic Urban Scenes](https://arxiv.org/abs/2401.01339)", building on top of the [Nerfstudio](https://github.com/nerfstudio-project/nerfstudio) framework.
+This repository is an unofficial implementation of "[Street Gaussians for Modeling Dynamic Urban Scenes](https://arxiv.org/abs/2401.01339)", building on top of the [Nerfstudio](https://github.com/nerfstudio-project/nerfstudio) framework. 
 
-Our goal is to foster research and development in autonomous driving field by providing a robust and flexible foundation. This contributor-friendly repository aligns with Nerfstudio's mission to create a collaborative community where users can easily build upon each other's work.
-
-Do you have feature requests or want to add **your** new model? Or maybe contribute structures for a new dataset? **We welcome contributions!** Join us in pushing the boundaries of autonomous driving technology.
+Our goal in reproducing and open-sourcing this work is to provide a basic reference for the self-driving community and to inspire more work. Any creative ideas are welcome to be discussed with us!
 
 <div align="center">
 <a href="https://lightwheel.ai/images/logo.png?tr:f-avif&t=1">
