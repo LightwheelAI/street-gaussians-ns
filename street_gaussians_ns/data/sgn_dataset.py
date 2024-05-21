@@ -16,12 +16,12 @@ from torch import Tensor
 from torch.utils.data import Dataset
 
 from nerfstudio.data.dataparsers.base_dataparser import DataparserOutputs
+from nerfstudio.cameras.cameras import Cameras
 
 from street_gaussians_ns.data.utils.data_utils import (
     get_image_mask_tensor_from_path,
     get_semantics_and_mask_tensors_from_path,
 )
-from street_gaussians_ns.cameras.cameras import Cameras
 
 
 class InputDataset(Dataset):

@@ -29,8 +29,8 @@ from nerfstudio.utils.rich_utils import CONSOLE, status
 from nerfstudio.process_data.colmap_utils import parse_colmap_camera_params
 from nerfstudio.utils.rich_utils import CONSOLE, status
 from nerfstudio.utils.scripts import run_command
+from nerfstudio.cameras.cameras import CAMERA_MODEL_TO_TYPE, CameraType, Cameras
 
-from street_gaussians_ns.cameras.cameras import CAMERA_MODEL_TO_TYPE, CameraType, Cameras
 from street_gaussians_ns.data.utils.dynamic_annotation import InterpolatedAnnotation
 from street_gaussians_ns.data.utils.geometric_metric import gl2cv
 

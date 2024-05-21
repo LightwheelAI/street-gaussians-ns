@@ -30,8 +30,8 @@ from nerfstudio.data.dataparsers.base_dataparser import DataparserOutputs
 from nerfstudio.data.dataparsers.nerfstudio_dataparser import NerfstudioDataParserConfig
 from nerfstudio.utils.misc import get_orig_class
 from nerfstudio.utils.rich_utils import CONSOLE
+from nerfstudio.cameras.cameras import Cameras, CameraType
 
-from street_gaussians_ns.cameras.cameras import Cameras, CameraType
 from street_gaussians_ns.data.sgn_dataset import InputDataset
 
 

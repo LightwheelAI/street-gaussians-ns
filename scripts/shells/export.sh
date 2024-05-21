@@ -1,3 +1,5 @@
-config_file=$1
+root=$1
 
-sgn-export gaussian-splat --load-config $config_file
+sgn-export \
+    --load-config $root/config.yml \
+    --output-dir $root
