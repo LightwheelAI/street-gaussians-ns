@@ -14,11 +14,12 @@ import torchvision.transforms.functional as TF
 
 from nerfstudio.engine.callbacks import TrainingCallback, TrainingCallbackAttributes, TrainingCallbackLocation
 from nerfstudio.cameras.camera_utils import quaternion_from_matrix
+from nerfstudio.cameras.cameras import Cameras
 
 from street_gaussians_ns.sgn_splatfacto import SplatfactoModel, SplatfactoModelConfig
 from street_gaussians_ns.data.utils.bbox_optimizers import BBoxOptimizerConfig, BBoxOptimizer
 from street_gaussians_ns.data.utils.dynamic_annotation import InterpolatedAnnotation, Box, parse_timestamp
-from street_gaussians_ns.cameras.cameras import Cameras
+
 
 
 @dataclass

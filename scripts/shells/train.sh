@@ -4,7 +4,7 @@ current_time=$(date +"%Y-%m-%d-%T")
 
 mkdir -p output/
 
-CUDA_VISIBLE_DEVICES=$cuda_id  sgn-train splatfacto-scene-graph \
+CUDA_VISIBLE_DEVICES=$cuda_id  sgn-train street-gaussians-ns \
     --experiment_name street-gaussians-ns \
     --output_dir output/$current_time \
     --vis viewer+wandb \

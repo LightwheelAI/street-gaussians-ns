@@ -31,8 +31,8 @@ from nerfstudio.models.base_model import Model, ModelConfig
 from nerfstudio.utils.colors import get_color
 from nerfstudio.utils.rich_utils import CONSOLE
 from nerfstudio.utils import colormaps
+from nerfstudio.cameras.cameras import Cameras
 
-from street_gaussians_ns.cameras.cameras import Cameras
 from street_gaussians_ns.data.utils.data_utils import SemanticType
 
 

@@ -396,7 +396,6 @@ class ColmapDataParser(DataParser):
             width=width,
             camera_to_worlds=poses[:, :3, :4],
             camera_type=camera_type,
-            camera_ids=camera_ids,
             times=times if self.includes_time else None
         )
         (
@@ -727,7 +726,6 @@ class ColmapDataParser(DataParser):
             width=torch.stack([c.width for c in camera_list]),
             camera_to_worlds=torch.stack([c.camera_to_worlds for c in camera_list]),
             camera_type=torch.stack([c.camera_type for c in camera_list]),
-            camera_ids=torch.stack([c.camera_ids for c in camera_list]),
             times=torch.stack([c.times for c in camera_list]) if self.includes_time else None
         )
 
