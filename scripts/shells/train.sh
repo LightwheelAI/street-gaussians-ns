@@ -1,12 +1,11 @@
 data_root=$1
 cuda_id=$2
-current_time=$(date +"%Y-%m-%d-%T")
 
 mkdir -p output/
 
 CUDA_VISIBLE_DEVICES=$cuda_id  sgn-train street-gaussians-ns \
     --experiment_name street-gaussians-ns \
-    --output_dir output/$current_time \
+    --output_dir output/ \
     --vis viewer+wandb \
     --viewer.quit_on_train_completion True \
     colmap-data-parser-config \
@@ -17,3 +16,4 @@ CUDA_VISIBLE_DEVICES=$cuda_id  sgn-train street-gaussians-ns \
     --undistort True \
     --segments-path segs \
     --filter_camera_id 1 \
+    --init_points_filename points3D_withlidar.txt

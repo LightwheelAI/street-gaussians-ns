@@ -33,7 +33,7 @@ colmap mapper \
     --Mapper.filter_min_tri_angle 0.1 \
 
 colmap model_comparer \
-    --input_path1 $DATASET_PATH/colmap/sparse/not_align \
+    --input_path1 $DATASET_PATH/colmap/sparse/not_align/0 \
     --input_path2 $DATASET_PATH/colmap/sparse/origin \
     --output_path $DATASET_PATH/colmap/sparse/0 \
     --alignment_error proj_center
