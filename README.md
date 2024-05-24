@@ -145,11 +145,37 @@ The following will train a street-gaussians-ns model, our recommended model for 
 
 ### Data preparation
 
-Begin by downloading [Waymo](https://github.com/waymo-research/waymo-open-dataset) and unzip it.
+Begin by downloading [dataset](https://console.cloud.google.com/storage/browser/waymo_open_dataset_v_1_4_0) from [Waymo](https://github.com/waymo-research/waymo-open-dataset) and unzip it, we use waymo perception_v1.4.0 to test our model.
+
 Use the script to extract it to our data structure.
 
 ```
 python scripts/python/extract_waymo.py --waymo_root path/to/your/waymo_root --out_root path/to/your/out_root
+```
+
+After this step you will get our dataset format as follow:
+```
+clip root
+  |-- images
+  |     |-- ${cam0 name}
+  |     |   |-- t0.jpg/png
+  |     |   |-- t1.jpg/png
+  |     |   |-- ...
+  |     |
+  |     |-- ${cam1 name}
+  |     |-- ...
+  |
+  |-- lidars
+  |     |-- ${lidar0 name}
+  |     |   |-- t0.pcd
+  |     |   |-- t1.pcd
+  |     |   |-- ...
+  |     |
+  |     |-- ${lidar1 name}
+  |     |-- ...
+  |
+  |-- transform.json
+  |-- annotation.json
 ```
 
 Then you can follow the ```data_process.sh``` to finish data processing.
