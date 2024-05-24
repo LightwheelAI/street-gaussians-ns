@@ -134,7 +134,7 @@ cd mask2former/modeling/pixel_decoder/ops
 sh make.sh
 ```
 
-After installing Mask2Former, we need to download the pretrained [model](https://dl.fbaipublicfiles.com/maskformer/mask2former/mapillary_vistas/semantic/maskformer2_swin_large_IN21k_384_bs16_300k/model_final_90ee2d.pkl) and place it at ```dependency/mask2former/models```
+After installing Mask2Former, we need to download the pretrained [model](https://dl.fbaipublicfiles.com/maskformer/mask2former/mapillary_vistas/semantic/maskformer2_swin_large_IN21k_384_bs16_300k/model_final_90ee2d.pkl) and place it at ```dependencies/mask2former/models```
 
 We refer to [Detectron2](https://github.com/facebookresearch/detectron2/blob/main/INSTALL.md) and [Mask2Former](https://github.com/facebookresearch/Mask2Former/blob/main/INSTALL.md) for more installation support.
 
