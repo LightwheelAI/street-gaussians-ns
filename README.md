@@ -23,9 +23,9 @@ Our goal in reproducing and open-sourcing this work is to provide a basic refere
 
 <div align="center">
 <a href="https://lightwheel-website.vercel.app/">
-<picture style="padding-left: 10px; padding-right: 10px;">
+<picture style="padding-left: 30px; padding-right: 30px;">
     <source media="(prefers-color-scheme: dark)" srcset="https://lightwheel.ai/images/logo.png?tr:f-avif&t=1" />
-    <img alt="lightwheelai logo" src="https://lightwheel.ai/images/logo.png?tr:f-avif&t=1" height="100px" />
+    <img alt="lightwheelai logo" src="https://lightwheel.ai/images/logo.png?tr:f-avif&t=1" width="300px" />
 </picture>
 </a>
 </div>
