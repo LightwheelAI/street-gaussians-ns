@@ -182,6 +182,26 @@ Then you can follow the ```data_process.sh``` to finish data processing.
 
 If you can't run ```segs_generate.py``` successfully, please try to copy it under ```dependencies/Mask2Former``` and run it again.
 
+If you want only test the model or have problem in data preprocessing, we offer our preprocessed dataset!
+
+<table>
+    <tr>
+        <th>Sequence</th>
+    </tr>
+    <tr>
+        <td ><a href="http://lightwheel.cn-sh2.ufileos.com/waymo_10588771936253546636_2300_000_2320_000.tar.gz?UCloudPublicKey=4eZBdiT75eP4RpoD8jjlUyHe081C3gXg4&Expires=1748076341&Signature=ZeY9BwbW5rbzFceUa+273IAF/DA=">10588771936253546636</a></td>
+    </tr>
+    <tr>
+        <td ><a href="http://lightwheel.cn-sh2.ufileos.com/waymo_10448102132863604198_472_000_492_000.tar.gz?UCloudPublicKey=4eZBdiT75eP4RpoD8jjlUyHe081C3gXg4&Expires=1748078515&Signature=B/pAhsXeW1A6zbJi0ORB1Zugk1s=">10448102132863604198</a></td>
+    </tr>
+    <tr>
+        <td><a herf="http://lightwheel.cn-sh2.ufileos.com/waymo_2094681306939952000_2972_300_2992_300.tar.gz?UCloudPublicKey=4eZBdiT75eP4RpoD8jjlUyHe081C3gXg4&Expires=1748078515&Signature=Mea4Fv6nCj8iNrp7G0LroSQOzWc=">2094681306939952000</a></td>
+    </tr>
+    <tr>
+        <td><a herf="http://lightwheel.cn-sh2.ufileos.com/waymo_8398516118967750070_3958_000_3978_000.tar.gz?UCloudPublicKey=4eZBdiT75eP4RpoD8jjlUyHe081C3gXg4&Expires=1748078515&Signature=yD3hY1hGE0nMkrL78MxYPrA5v2M=">8398516118967750070</a></td>
+    </tr>
+</table>
+
 ### Training
 
 Training models is done conveniently by scripts.
@@ -239,7 +259,7 @@ For more usage or information, please see https://github.com/nerfstudio-project/
 # TODO
 - [x] Release main part code
 - [x] Release data processing part code
-- [ ] Add more results
+- [x] Release preprocessed dataset
 
 # Acknowledgements
 
