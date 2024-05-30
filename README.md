@@ -46,19 +46,19 @@ Waymo:
 
 <table>
     <tr>
-        <th rowspan="2">Sequence</th><th colspan="2">Paper</th><th colspan="2">This repo</th>
+        <th rowspan="2">Sequence</th><th rowspan="2">frame</th><th colspan="2">Paper</th><th colspan="2">This repo</th>
     </tr>
     <tr>
         <td>PSNR</td><td>SSIM</td><td>PSNR</td><td>SSIM</td>
     </tr>
     <tr>
-        <td>10448102132863604198</td><td>33.50</td><td>0.945</td><td>33.12</td><td>0.942</td>
+        <td>10448102132863604198</td><td> [0,85] </td><td>33.50</td><td>0.945</td><td>33.12</td><td>0.942</td>
     </tr>
     <tr>
-        <td>2094681306939952000</td><td>36.70</td><td>0.955</td><td>35.72</td><td>0.960</td>
+        <td>2094681306939952000</td><td> [20,115] </td><td>36.70</td><td>0.955</td><td>35.72</td><td>0.960</td>
     </tr>
     <tr>
-        <td>8398516118967750070</td><td>36.74</td><td>0.948</td><td>38.29</td><td>0.965</td>
+        <td>8398516118967750070</td><td> [0,160] </td><td>36.74</td><td>0.948</td><td>38.29</td><td>0.965</td>
     </tr>
 </table>
 
