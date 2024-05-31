@@ -258,7 +258,14 @@ class ColmapDataParser(DataParser):
         else:
             # filter image_filenames and poses based on train/eval split percentage
             if self.config.frame_select is not None:
-                all_idx = np.arange(self.config.frame_select[0],self.config.frame_select[1], dtype=np.int32)
+                _, counts = torch.unique(camera_ids, return_counts=True)
+                frame_len = counts[0]
+                all_idx_list = []
+                for i in range(len(self.config.filter_camera_id)):
+                    start_frame = self.config.frame_select[0] + i * frame_len
+                    end_frame = self.config.frame_select[1] + i * frame_len
+                    all_idx_list.extend(range(start_frame, end_frame))
+                all_idx = np.array(all_idx_list, dtype=np.int32)
             else:
                 all_idx = np.arange(len(image_filenames), dtype=np.int32)
             if self.config.filter_camera_id:
