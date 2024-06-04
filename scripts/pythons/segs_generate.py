@@ -3,7 +3,7 @@
 
 from detectron2.config import CfgNode as CN
 from demo.predictor import VisualizationDemo
-# from mask2former import add_maskformer2_config
+from mask2former import add_maskformer2_config
 from detectron2.utils.logger import setup_logger
 from detectron2.projects.deeplab import add_deeplab_config
 from detectron2.data.detection_utils import read_image
