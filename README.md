@@ -232,6 +232,46 @@ bash scripts/shells/eval.sh path/to/your/output/config.yaml cuda_id
 bash scripts/shells/render.sh path/to/your/output/config.yaml cuda_id
 ```
 
+If you want to render a novel view video, following steps could be helpful.
+1. Create a json file with following format(or use our ```nvs_template.json``` in ```scripts```).
+2. Specify the json file using ```--vehicle-config``` of ```sgn-render```.
+3. Get a novel view video!
+```
+[
+    {
+        "camera": "FRONT",
+        "image_path_patten": ".*/FRONT/.*",
+        "transform": [
+            [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        ]
+    },
+    
+]
+```
+
 ### Exporting
 
 Your can use the following script to export nerfstudio model to a ply file as 3DGS.
