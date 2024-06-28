@@ -100,7 +100,7 @@ pip install ninja git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindi
 Install nerfstudio.
 
 ```bash
-pip install nerfstudio
+pip install nerfstudio==1.0.0
 ```
 
 We refer to [Nerfstudio](https://github.com/nerfstudio-project/nerfstudio/blob/v1.0.3/docs/quickstart/installation.md) for more installation support.
