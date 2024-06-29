@@ -5,7 +5,7 @@ from typing import Dict, List, Type, Union
 import copy
 import math
 
-from gsplat.sh import spherical_harmonics
+from gsplat import spherical_harmonics
 from pytorch3d.transforms import quaternion_multiply
 from torch.nn import Parameter
 import mediapy as media
