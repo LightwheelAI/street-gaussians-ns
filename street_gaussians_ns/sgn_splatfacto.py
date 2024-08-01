@@ -8,10 +8,8 @@ import math
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Tuple, Type, Union
 
-from gsplat._torch_impl import quat_to_rotmat
-from gsplat.project_gaussians import project_gaussians
-from gsplat.rasterize import rasterize_gaussians
-from gsplat.sh import num_sh_bases, spherical_harmonics
+from gsplat.cuda_legacy._torch_impl import quat_to_rotmat
+from gsplat import project_gaussians, rasterize_gaussians, spherical_harmonics
 from pytorch_msssim import SSIM
 from torch.nn import Parameter
 from typing_extensions import Literal
@@ -35,6 +33,16 @@ from nerfstudio.cameras.cameras import Cameras
 
 from street_gaussians_ns.data.utils.data_utils import SemanticType
 
+def num_sh_bases(degree: int):
+    if degree == 0:
+        return 1
+    if degree == 1:
+        return 4
+    if degree == 2:
+        return 9
+    if degree == 3:
+        return 16
+    return 25
 
 def random_quat_tensor(N):
     """
