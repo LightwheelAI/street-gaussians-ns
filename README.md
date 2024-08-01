@@ -12,7 +12,7 @@
 # Introduction
 
 ## About
-This repository is an unofficial implementation of "[Street Gaussians for Modeling Dynamic Urban Scenes](https://arxiv.org/abs/2401.01339)", building on top of the [Nerfstudio](https://github.com/nerfstudio-project/nerfstudio) framework. 
+This repository is an unofficial implementation of "[Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting](https://arxiv.org/abs/2401.01339)", building on top of the [Nerfstudio](https://github.com/nerfstudio-project/nerfstudio) framework. 
 
 Our goal in reproducing and open-sourcing this work is to provide a basic reference for the self-driving community and to inspire more work. Any creative ideas are welcome to be discussed with us! Feel free to contact with us by email: contact@lightwheel.ai
 
@@ -315,14 +315,13 @@ For more usage or information, please see https://github.com/nerfstudio-project/
 - Collaboration friendly studio for NeRFs
 
 ## Citation
+If you find this code useful, please be so kind to cite
 ```
-@misc{yan2024street,
-      title={Street Gaussians for Modeling Dynamic Urban Scenes}, 
-      author={Yunzhi Yan and Haotong Lin and Chenxu Zhou and Weijie Wang and Haiyang Sun and Kun Zhan and Xianpeng Lang and Xiaowei Zhou and Sida Peng},
-      year={2024},
-      eprint={2401.01339},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{yan2024street,
+    title={Street Gaussians for Modeling Dynamic Urban Scenes}, 
+    author={Yunzhi Yan and Haotong Lin and Chenxu Zhou and Weijie Wang and Haiyang Sun and Kun Zhan and Xianpeng Lang and Xiaowei Zhou and Sida Peng},
+    booktitle={ECCV},
+    year={2024}
 }
 ```
 
